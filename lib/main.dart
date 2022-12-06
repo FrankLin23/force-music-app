@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:force_music_app/pages/home.dart';
+import 'package:force_music_app/pages/home/home.dart';
 import 'package:force_music_app/pages/login/login_page.dart';
 import 'package:force_music_app/theme.dart';
 
@@ -15,6 +15,7 @@ class ForceMusic extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       title: 'Force Music',
+      debugShowCheckedModeBanner: false,
       theme: ThemeData(
         primarySwatch: primary,
       ),
